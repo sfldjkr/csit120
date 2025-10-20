@@ -66,6 +66,7 @@ main {
   width: 85%;
   max-width: 700px;
   border-radius: 8px;
+  /* Ensure reflection always on its own line */
   flex-basis: 100%;
 }
 
