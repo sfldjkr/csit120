@@ -66,6 +66,7 @@ main {
   width: 85%;
   max-width: 700px;
   border-radius: 8px;
+  flex-basis: 100%;
 }
 
 ul, ol {
@@ -89,13 +90,13 @@ footer {
     align-items: flex-start;
   }
 
-  .blog-post,
-  #reflection {
+  .blog-post {
     width: 40%;
     margin: 20px;
   }
 
   #reflection {
     width: 85%;
+    margin: 20px auto;
   }
 }
