@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="tier.html">Tier List</a> | 
+        <a href="contact.html">Contact Form</a>
+    </nav>
+
+    <h1>Contact Me About Anime Rankings</h1>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Your Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <label for="favorite-tier">Favorite Tier:</label>
+        <select id="favorite-tier" name="favorite-tier">
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+
+        <label>Do you like action anime?</label>
+        <input type="radio" name="action" value="yes" required> Yes
+        <input type="radio" name="action" value="no"> No
+
+        <label>Which anime genres do you enjoy?</label>
+        <input type="checkbox" name="genre" value="Action"> Action
+        <input type="checkbox" name="genre" value="Adventure"> Adventure
+        <input type="checkbox" name="genre" value="Horror"> Horror
+        <input type="checkbox" name="genre" value="Thriller"> Thriller
+
+        <label for="suggestions">Any anime suggestions?</label>
+        <input type="text" id="suggestions" name="suggestions">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
