@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Example - Mirai Kuriyama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Image Format Showcase</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="jpg.html">JPG Example</a>
+            <a href="png.html">PNG Example</a>
+            <a href="gif.html" class="active">GIF Example</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>GIF Format Example</h2>
+
+        <img src="images/mygif.gif" 
+             alt="Mirai Kuriyama, a high school Spirit World Warrior, having her tears gently wiped by a boy">
+
+        <section>
+            <h3>About This Image</h3>
+            <p>This GIF shows Mirai Kuriyama, a first-year high school Spirit World Warrior from the anime series 
+               Beyond the Boundary (Kyōkai no Kanata), having her tears gently wiped by a boy. 
+               Mirai is known for her red-rimmed glasses and pink cardigan, which conceals a wound on her arm 
+               that allows her to manipulate her blood. The GIF captures a tender, emotional moment from the series. 
+               Because it is simple with only a few movements, it can be used as a peaceful background for emotional songs, 
+               creating a subtle and heartfelt atmosphere for viewers.</p>
+        </section>
+
+        <section>
+            <h3>Why GIF Format?</h3>
+            <p>The GIF format is ideal for this image because it supports animation and looping. 
+               It allows this emotional moment to be seen as a short, continuous action. 
+               The simple and limited movement makes it lightweight, peaceful, and effective as a background GIF. 
+               This format helps evoke an emotional feeling in viewers without being distracting.</p>
+        </section>
+
+        <div>
+            <p>Image source: <a href="https://user-images.githubusercontent.com/41088314/177622969-dd367985-52f2-41b2-a0a1-fcfdadd21519.gif" target="_blank">GitHub User</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Safal Shrestha - CSIT 121</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

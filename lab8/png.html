@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG Example - 3D Dice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Image Format Showcase</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="jpg.html">JPG Example</a>
+            <a href="png.html" class="active">PNG Example</a>
+            <a href="gif.html">GIF Example</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <h2>PNG Format Example</h2>
+
+        <img src="images/dice.png" 
+             alt="3D rendering of a single dice with transparent background showing numbers 1 to 6">
+
+        <section>
+            <h3>About This Image</h3>
+            <p>This PNG image shows a 3D dice with a transparent background. 
+               The dice is rendered in high detail, with sharp edges and clear numbers on each face. 
+               Its transparency allows it to be placed over any background without a visible rectangle, 
+               making it versatile for design or presentations.</p>
+        </section>
+
+        <section>
+            <h3>Why PNG Format?</h3>
+            <p>PNG is ideal for this image because it supports transparency and preserves sharp edges and details. 
+               Unlike JPG, PNG does not lose quality when saving graphics with clear lines or a transparent background. 
+               This makes it perfect for icons, logos, and graphics like this 3D dice.</p>
+        </section>
+
+        <div>
+            <p>Image source: <a href="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" target="_blank">Wikimedia Commons</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Safal Shrestha - CSIT 121</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
